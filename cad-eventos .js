@@ -1,37 +1,39 @@
 // cadastro de evento
-const Data_Atual = new Date()
-let Data_evento = new Date('2022/07/28')
+const data_Atual = new Date()
+let data_Evento = new Date('2022/07/28')
+
 // cadastro de participantes
-const Idade_minima = 18
-const Participantes = 10
+const idade_Minima = 18
+const participantes = 10
 let cadastro = 100
 let Idade = 17
+
 //---------------------------------------------------
-if (Data_evento => Data_Atual)
+if (data_Evento => data_Atual)
 {
-  console.log ('EVENTO CADASTRADO')
+  console.log ('CADASTRO DO EVENTO PERMITIDO')
 }
 else 
 {
-  console.log ('EVENTO NÃO PERMITIDO')
+  console.log ('CADASTRO DO EVENTO NÃO PERMITIDO POR DATA INVÁLIDA')
 }
 if (cadastro > 100) 
 {
-  console.log ('LIMITE DE CADASTRO EXCEDIDO')
+  console.log ('LIMITE DE CADASTRO DE PARTICIPANTES ATINGIDO')
 }
 else 
 {
   console.log ('CADASTRAR PARTICIPANTE')
 }
-if (Idade < Idade_minima)
+if (Idade < idade_Minima)
 {
-  console.log ('PARTICIPANTE MENOR DE IDADE')
+  console.log ('CADASTRO DE PARTICIPANTE NÃO PERMITIDO POR IDADE')
 }
 else 
 {
-  console.log ('PARTICIPANTE PERMITIDO')
+  console.log ('CADASTRO DE PARTICIPANTE PERMITIDO')
 }
-if (Data_evento > Data_Atual && Idade => 18 && cadastro == 100) 
+if (data_Evento > data_Atual && Idade => 18 && cadastro == 100) 
 {
   console.log ('EVENTO CADASTRADO')
 }
