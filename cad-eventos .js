@@ -30,6 +30,7 @@ if (Idade < Idade_minima)
 else 
 {
   console.log ('PARTICIPANTE PERMITIDO')
+}
 if (Data_evento > Data_Atual && Idade>=18 && cadastro ==100) 
 {
   console.log ('EVENTO CADASTRADO')
