@@ -9,7 +9,7 @@ let Idade = 17
 //---------------------------------------------------
 if (Data_evento => Data_Atual)
 {
-  console.log('EVENTO CADASTRADO')
+  console.log ('EVENTO CADASTRADO')
 }
 else 
 {
@@ -31,7 +31,7 @@ else
 {
   console.log ('PARTICIPANTE PERMITIDO')
 }
-if (Data_evento > Data_Atual && Idade>=18 && cadastro ==100) 
+if (Data_evento > Data_Atual && Idade => 18 && cadastro == 100) 
 {
   console.log ('EVENTO CADASTRADO')
 }
