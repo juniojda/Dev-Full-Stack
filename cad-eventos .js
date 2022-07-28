@@ -25,7 +25,7 @@ else
 {
   console.log ('CADASTRAR PARTICIPANTE')
 }
-if (Idade < idade_Minima)
+if (idade < idade_Minima)
 {
   console.log ('CADASTRO DE PARTICIPANTE NÃO PERMITIDO POR IDADE')
 }
