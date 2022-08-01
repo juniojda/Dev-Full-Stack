@@ -1,11 +1,11 @@
 // cadastro de evento
 const data_Atual = new Date()
-let data_Evento = new Date('2022/07/28')
+let data_Evento = new Date('2022/07/28') 
 
 // cadastro de participantes
-const idade_Minima = 18
-const participantes = 10
-let cadastro = 100
+const idade_Minima = 17
+let participantes ["Junio", "Daniel", "João"];
+const cadastro <= 100
 let idade = 39
 
 //---------------------------------------------------
@@ -17,7 +17,7 @@ else
 {
   console.log ('CADASTRO DO EVENTO NÃO PERMITIDO POR DATA INVÁLIDA');
 }
-if (cadastro > 100) 
+if (participantes.length <= cadastro) 
 {
   console.log ('LIMITE DE CADASTRO DE PARTICIPANTES ATINGIDO');
 }
