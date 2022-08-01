@@ -5,7 +5,7 @@ let data_Evento = new Date('2022/07/28')
 // cadastro de participantes
 const idade_Minima = 17
 let participantes ["Junio", "Daniel", "João"];
-const cadastro <= 100
+let cadastro = 100
 let idade = 39
 
 //---------------------------------------------------
