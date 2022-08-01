@@ -6,8 +6,8 @@ let data_Evento = new Date('2022/07/28')
 const idade_Minima = 17
 let participantes = ["Junio", "Daniel", "João"];
 let quantidadeParticipantes = participantes.length
-let cadastro = 100
 let idade = 39
+let limiteParticipantes = 100
 
 //---------------------------------------------------
 if (data_Evento > data_Atual)
@@ -34,7 +34,7 @@ else
 {
   console.log ('CADASTRO DE PARTICIPANTE PERMITIDO');
 }
-if (data_Evento > data_Atual && idade => 18 && participantes.length < 100);
+if (data_Evento > data_Atual && idade => idadeMinima && participantes.length < limiteParticipantes);
 {
   console.log ('EVENTO CADASTRADO');
 }
