@@ -34,7 +34,7 @@ else
 {
   console.log ('CADASTRO DE PARTICIPANTE PERMITIDO');
 }
-if (data_Evento > data_Atual && idade > 18 && cadastro < 100);
+if (data_Evento > data_Atual && idade => 18 && participantes.length < 100);
 {
   console.log ('EVENTO CADASTRADO');
 }
